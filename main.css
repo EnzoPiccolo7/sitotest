@@ -1,0 +1,120 @@
+    h1 {
+        background-image: url('logo2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        color: white;
+    }
+    
+    body {
+        font-size: 1pixel;
+        font-family: 'Open Sans';
+        font-family: Arial, sans-serif;
+        color: black;
+        background-color: rgba(128, 128, 128, 0.4);
+    }
+    
+    .classe {
+        font-weight: bold
+    }
+    
+    h4 {
+        color: black;
+    }
+    
+    h1 {
+        color: red;
+    }
+    
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #9e1616
+    }
+    
+    .tit {
+        color: #9e1616;
+    }
+    
+    #trans {
+        text-align: center;
+        background-color: red;
+        font-size: x-large;
+        font-weight: 700;
+        transition: margin-right 3s, color 2500ms;
+        color: white;
+        margin-right: 87%;
+    }
+    
+    .autore {
+        background-color: black;
+        height: 25px;
+        overflow: hidden;
+    }
+    
+    .footer {
+        color: white;
+        float: left;
+    }
+    
+    .occhio {
+        background-color: red;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .9) 25%, rgba(0, 0, 0, .1) 50%, rgba(0, 0, 0, .9) 75%);
+        height: 25px;
+        width: 80%;
+        animation: 4s linear 0s infinite alternate move_eye;
+        -webkit-animation: 4s linear 0s infinite alternate move_eye;
+        animation: 4s linear 0s infinite alternate move_eye;
+    }
+    
+    @-webkit-keyframes move_eye {
+        from {
+            margin-left: -50%;
+        }
+        to {
+            margin-left: 60%;
+        }
+    }
+    
+    @keyframes move_eye {
+        from {
+            margin-left: -50%;
+        }
+        to {
+            margin-left: 60%;
+        }
+    }
+    
+    .animate__animated.animate__flash {
+        --animate-duration: 3s;
+    }
+    
+    #cpu {
+        float: left;
+    }
+    
+    #intel {
+        float: left;
+        width: 200px;
+        border-radius: 15%;
+    }
+    
+    #schermo {
+        float: right;
+    }
+    
+    #led {
+        float: right;
+        width: 250px;
+        border-radius: 15%;
+    }
+    
+    #fotocamera {
+        float: left;
+    }
+    
+    #sensore {
+        float: left;
+        border-radius: 15%;
+        width: 200px;
+    }
